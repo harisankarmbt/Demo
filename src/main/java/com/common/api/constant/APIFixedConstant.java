@@ -117,11 +117,11 @@ public class APIFixedConstant {
 	public static final String RE_APPLICATION_TYPE 	= "^[A-Z0-9_]+$"; 
 	  
 	/** Validation Type Constants */ 
-	public static final String VT_NUMBER 	  = "number";   
-	public static final String VT_NAME  	  = "name";     
-	public static final String VT_DATE  	  = "date";     
-	public static final String VT_TIME  	  = "time";    
-	public static final String VT_TYPE 		  = "type";   
+	public static final String VT_NUMBER 	= "number";   
+	public static final String VT_NAME  	= "name";     
+	public static final String VT_DATE  	= "date";     
+	public static final String VT_TIME  	= "time";    
+	public static final String VT_TYPE 		= "type";   
 	public static final String VT_DATE_TIME   = "dateTime";     
 	public static final String VT_PASSWORD	  = "password";   
 	public static final String VT_AUTO_GEN_ID = "autoGenerateId";
@@ -146,31 +146,4 @@ public class APIFixedConstant {
 	public static final String RTVE_MEMBER_NOT_MATCHED   	  = "Member does not mismatched";  
 	public static final String RTVE_MEMBER_DEV_NOT_MATCHED    = "Member device does not mismatched"; 
 	
-	/** Database Table Names */ 
-	public static final String TABLE_DEPARTMENT = "tb_department";
-	public static final String TABLE_STUDENTS = "tb_students";
-	
-	
-	/** Regular Expression Constants */
-	public static final String ID_REGEX 					= "^(0|[1-9]\\d*)$";
-	public static final String NAME_REGEX					= "^[A-Za-z ]+$";  
-	public static final String DATE_REGEX					= "^(19[7-9][0-9]|20[0-2][0-9]|20[3][0-2])-((0[1-9]|1[0-2])-([0-2][0-9]|3[0-1]))$\r\n";  
-	public static final String GENDER_REGEX					= "^(m(?:ale)?|f(?:emale)?|o(?:thers)?|M(?:ale)?|F(?:emale)?|O(?:thers)?|M(?:ALE)?|F(?:EMALE)?|O(?:THERS)?)?+$";
-	public static final String EMAIL_ADDRESS_REGEX 			= "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$";	
-	public static final String PHONE_NUMBER_REGEX 			= "^[6-9]\\d{9}$";
-		
-	/** Validation Constants */
-	public static final String INVALID_ID_FORMAT 			= "Invalid id format. id must contains only numbers and greater than zero";	
-	public static final String INVALID_STUDENT_ID_FORMAT 	= "Invalid student_id format. id must contains only numbers and greater than zero";	
-	public static final String INVALID_SEMESTER_ID_FORMAT 	= "Invalid semester_id format. id must contains only numbers and greater than zero";
-	public static final String INVALID_NAME_FORMAT	 		= "Invalid name. Name must contain only letters (A-Z, a-z).";
-	public static final String INVALID_EMAIL_FORMAT 		= "Invalid email format. Please enter a valid email address.";	
-	public static final String INVALID_PHONE_FORMAT 		= "Invalid Phone Number. Phone number must be 10 digits in length and consist of numbers (0-9) only.";
-	public static final String INAVLID_DEPARTMENT			= "Invalid department_id. department id doesn't match";	
-	public static final String INAVLID_SEMESTER				= "Invalid semester_id. semester id doesn't match";
-	public static final String JSON_ERROR 					= "Error converting List to JSON";	
-	public static final String RECORD_NOT_FOUND				= "No Record found";	
-	public static final String DEPARTMENT_NOT_FOUND			= "Department id not exist";	
-	public static final String SEMESTER_NOT_FOUND			= "Semester id not exist";	
-	public static final String STUDENT_NOT_FOUND			= "Student id not exist";
 }
